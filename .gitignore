@@ -1,2 +1,7 @@
+#Development
 .ve
 .idea
+
+# Packages
+#*.egg
+#*.egg-info
