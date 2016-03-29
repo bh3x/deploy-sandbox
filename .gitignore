@@ -3,5 +3,15 @@
 .idea
 
 # Packages
-#*.egg
-#*.egg-info
+*.egg
+*.egg-info
+
+.DS_Store
+*~
+.*.sw[po]
+.build
+*pycache*
+.pytest
+db.sqlite3
+
+
