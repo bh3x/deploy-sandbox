@@ -19,10 +19,10 @@ if os.path.abspath(__file__).split(os.path.sep)[1] == 'vagrant':
 
 
 setup(
-    name='snbxdemo',
+    name='snbxflaskapp',
     version='0.0.0',
     description=(
-        'Experimental Django APP Sandbox'
+        'Experimental Flask APP Sandbox'
     ),
     author='Adrian Buturca',
     author_email='adrian.bh3x@gmail.com',
@@ -33,6 +33,13 @@ setup(
     include_package_data=True,
     zip_safe=False,
     install_requires=[
-        'Django>=1.9.4',
+        'Flask==0.10.1',
+    ],
+    classifiers=[
+        'Development Status :: 4 - Alpha',
+        'Intended Audience :: Developers',
+        'Intended Audience :: System Administrators',
+        'Programming Language :: Python',
+        'Topic :: Software Development :: Bug Tracking'
     ]
 )
